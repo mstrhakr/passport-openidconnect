@@ -1,7 +1,7 @@
 {
-  "name": "passport-openidconnect",
-  "version": "0.1.1",
-  "description": "OpenID Connect authentication strategy for Passport.",
+  "name": "@mstrhakr/passport-openidconnect",
+  "version": "0.1.2",
+  "description": "Development fork",
   "keywords": [
     "passport",
     "openid",
@@ -11,17 +11,13 @@
     "authentication",
     "identity"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "https://www.jaredhanson.me/"
-  },
+  "author": "Jared Hanson <jaredhanson@gmail.com> (https://www.jaredhanson.me/)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-openidconnect.git"
+    "url": "git://github.com/mstrhakr/passport-openidconnect.git"
   },
   "bugs": {
-    "url": "https://github.com/jaredhanson/passport-openidconnect/issues"
+    "url": "https://github.com/mstrhakr/passport-openidconnect/issues"
   },
   "funding": {
     "type": "github",
@@ -53,5 +49,10 @@
   },
   "scripts": {
     "test": "mocha --require ./test/bootstrap/node --recursive"
+  },
+  "homepage": "https://github.com/mstrhakr/passport-openidconnect#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
